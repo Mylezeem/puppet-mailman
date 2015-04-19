@@ -1,0 +1,31 @@
+{
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "name": "yguenane-mailman",
+  "version": "0.0.1",
+  "source": "https://github.com/Mylezeem/puppet-mailman",
+  "author": "Yanis Guenane",
+  "license": "Apache-2.0",
+  "summary": "A puppet module to manage mailman",
+  "description": "A puppet module to manage mailman",
+  "project_page": "http://github.com/Mylezeem/puppet-mailman",
+  "dependencies": []
+}
