@@ -27,5 +27,10 @@
   "summary": "A puppet module to manage mailman",
   "description": "A puppet module to manage mailman",
   "project_page": "http://github.com/Mylezeem/puppet-mailman",
-  "dependencies": []
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.2.1 < 5.0.0"
+    }
+  ]
 }
